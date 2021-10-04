@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+}
+h1 {
+    background-color: darkolivegreen;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid black;
+    margin: 50px;
+}
+.latin {
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 200px;
+    line-height: 1.1em; 
+}
+#fancy {
+    font-family: 'Akronim', cursive;
+    font-size: 45px;
+    text-align: center;
+    color:rgb(1, 94, 117)
+}
