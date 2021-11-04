@@ -66,9 +66,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0;
-
   grid-gap: 0;
   width: 800px;
+  align-items: center ;
 }
 .red3 {
   width: 100%; 
@@ -87,6 +87,7 @@
   height: 200px; 
   background-color: gold; 
   grid-column: 2;
+  margin-left: 40px;
 } 
 .blue3 {
   width: 100%; 
