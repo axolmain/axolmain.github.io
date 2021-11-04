@@ -132,7 +132,7 @@
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
   width: 800px;
-  font-size: 13px;
+  font-size: 14px;
 }
 .red5 { 
   width: 100%; 
@@ -146,7 +146,7 @@
   float: left;
 } 
 .yellow5 {
-  width: 756px; 
+  width: 100%; 
   height: 200px; 
   background-color: gold; 
 } 
@@ -158,8 +158,8 @@
 /* Activity 6 styles */ 
 .content6 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr)); 
 }
 .red6 {
   width: auto; 
@@ -186,8 +186,8 @@
   z-index: -1;
 } 
 .blue6 {
-  width: 500px; 
-  height: 500px; 
+  width: auto; 
+  height: 600px; 
   background-color: blue; 
   grid-column: 2/6;
   grid-row: 2/6;
