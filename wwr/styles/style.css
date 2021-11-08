@@ -157,19 +157,16 @@ footer {
     align-items: center;
 }
 footer h3 {
-    background-color: #306BAC;
+
     color: whitesmoke;
-    text-decoration: underline;
 }
 footer a {
-    background-color: #306BAC;
+
     color: whitesmoke;
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #306BAC;
-    color: whitesmoke;
-    text-decoration: underline;
+
 }
 footer .social img {
     padding-top: 15px;
