@@ -50,9 +50,9 @@ nav a:hover {
     margin-top: 40px;
     float: left;
 }
-.test {
+.river1 h1 {
     float: right;
-    grid-column: 4/6;
+    grid-column: 5;
 }
 .river2 {
     grid-row: 2;
