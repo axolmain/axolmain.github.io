@@ -1,0 +1,31 @@
+body {
+    max-width: 1080px;
+    max-height: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    font-size: 35px;
+}
+.garyvee {
+    grid-column: 1/4;
+    grid-row: 1/5;
+}
+.quote1 {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.quote2 {
+    grid-column: 3/4;
+    grid-row: 2/5;
+    z-index: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
