@@ -47,19 +47,19 @@ nav a:hover {
     grid-template-columns: repeat(12, 1fr);
     color: whitesmoke;
 }
-.headline {
+.top {
+    grid-column: 1/13;
+}
+.headline{
     grid-column: 3/11;
     text-align: center;
 }
-/* .boxes {
-    grid-row: 1/11;
-} */
 .box1 {
-    grid-column-end: 1/6;
+    grid-column: 1/6;
     margin-left: 40px;
 }
 .arrow-1 {
-    width: 120px;
+    width: 80%;
     height: 30px;
     display: flex;
     grid-column: 6/8;
@@ -76,7 +76,7 @@ nav a:hover {
     90%,100%{flex-grow: 1}
 }
 .box2 {
-    grid-column-start: 8/13;
+    grid-column: 8/13;
     margin-right: 40px;
 }
 .foodimg {
