@@ -33,6 +33,16 @@ nav a:hover {
     background-color: #306BAC;
     color: whitesmoke;
 }
+.searchbar {
+    border: none;
+    margin: auto;
+    margin-right: 35px;
+    font-size: 17px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
 #content {
     max-width: 1600px;
     margin: 0 auto;
