@@ -16,14 +16,14 @@ body {
 #text h1 {
     font-size: 4em;
     font-weight: lighter;
-    color: rgb(34, 73, 146);
+    color: rgb(66, 76, 96);
     margin-bottom: 50px;
 }
 
 #text h3 {
     font-weight: 100;
     font-size: 1em;
-    color: lightgray;
+    color: gray;
     margin-top: -10px;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .button {
-    background-color: rgb(34, 73, 146);
+    background-color: rgb(44, 83, 142);
     border-radius: 5px;
     height: 50px;
     width: 320px;
