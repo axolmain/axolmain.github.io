@@ -4,6 +4,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    max-width: 1980px;
 }
 header {
     background-color:rgba(94, 185, 224, 0.5);
@@ -63,18 +64,37 @@ nav a:hover {
     text-align: center;
 }
 .qabox{
-    grid-column: 2/13;
+    grid-column: 2/12;
     display: grid;
-    margin-top: 80px;
+    align-items: center;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 60px;
 }
 .qabox img {
-    grid-column: 2/3;
+    grid-column: 1;
     width: 60px;
     height: 60px;
 }
 .qabox h3 {
-    grid-column: 3/13;
+    grid-column: 2/10;
 }
+.qabox p {
+    grid-column: 2/10;
+}
+.qabox h4 {
+    grid-column: 4/7;
+    text-align: center;
+}
+.qabox a {
+    grid-column: 4/7;
+    text-align: center;
+    color: rgb(88, 88, 241);
+}
+.qabox a:hover {
+    grid-column: 4/7;
+    color: salmon;
+}
+
 footer {
     background-color: #C4C4C4;
     padding: 25px 50px;
