@@ -17,6 +17,7 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 20px ;
+    padding: 10px 10px 5px 10px;
 }
 nav {
     display: flex;
@@ -60,12 +61,35 @@ nav a:hover {
 .headimg {
     grid-column: 2/6;
     margin-top: 80px;
+    width: 491px;
+    height: 320px;
 }
 .headline {
     grid-column: 6/13;
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
+}
+.deals {
+    grid-column: 2/13;
+}
+.byus {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.byuslogo {
+    grid-row: 1;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.byus p{
+    grid-row: 2;
 }
 footer {
     background-color: #C4C4C4;
