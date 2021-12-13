@@ -95,7 +95,15 @@ nav a:hover {
     grid-column: 4/7;
     color: salmon;
 }
-
+form {
+    text-align: center;
+    grid-column: 4/7;
+    margin-top: 20px;
+    border: lightsalmon solid 3px;
+}
+form input {
+    color: rgb(133, 131, 131);
+}
 footer {
     background-color: #C4C4C4;
     padding: 25px 50px;
